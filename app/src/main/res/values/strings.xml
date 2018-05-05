@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Project Quiz</string>
+    <string name="yes"> Yes</string>
+    <string name="no"> No </string>
+    <string name="not_sure"> Not sure </string>
+    <string name="president_buhari_is_from_peoples_democratic_party">President Buhari is from Peoples Democratic Party</string>
+    <string name="the_full_meaning_of_ecowas_is_economic_community_of_west_african_states">The full meaning of ECOWAS is Economic Community of West African States</string>
+    <string name="ibadan_is_the_larget_city_in_west_africa">Ibadan is the larget city in West Africa</string>
+    <string name="the_federal_capital_territory_of_nigeria_is_in_lagos_state">The Federal Capital territory of Nigeria is in Lagos State</string>
+    <string name="nigeria_is_a_country_in_africa">Nigeria is a country in Africa</string>
+    <string name="instruction">INSTRUCTION:</string>
+    <string name="select_one_button_to_answer_a_question_and_click_on_submit_when_done_goodluck">Select one button to answer a question and click on Submit when done. GOODLUCK!!!</string>
+    <string name="your_answers">YOUR ANSWERS</string>
+    <string name="enter_your_fullname">Enter your FULLNAME</string>
+    <string name="take_quiz_again">Take Quiz Again</string>
+    <string name="quiz_result">QUIZ RESULT!!!</string>
+    <string name="quiz_answers">QUIZ ANSWERS</string>
+    <string name="send_quiz_result">Send Quiz Result</string>
+    <string name="question3">Question3</string>
+    <string name="question4">Question4</string>
+    <string name="question5">Question5</string>
+    <string name="get_quiz_result">Get Quiz Result</string>
+    <string name="back_to_top">Back To Top</string>
+    <string name="question2">Question2</string>
+    <string name="question1">Question1</string>
+    <string name="text_button_1">check answers</string>
+
+    <string name="text_person_name">Type student name here.</string>
+    <string name="text_directions">Select ALL correct answers:</string>
+
+    <string name="text_1">1) probability distribution</string>
+    <string name="text_1a">1a) A smooth curve indicating the frequency distribution for a discontinuous random variable.</string>
+    <string name="text_1b">1b) A discontinuous dot diagram showing the frequency distribution for a random variable.</string>
+    <string name="text_1c">1c) A smooth curve indicating the frequency distribution for a continuous random variable.</string>
+
+
+    <string name="text_2">2)    normal distribution</string>
+    <string name="text_2a">2a)   A smooth double-peak bell-shaped curve symmetrical about the mean.</string>
+    <string name="text_2b">2b)   A smooth single-peak curve </string>
+    <string name="text_2c">3c)   A bell-shaped curve symmetrical about the mean. </string>
+    <string name="str">You have successfully completed the quiz. Click on Send Result to mail your result to a friend, or click on Take Quiz again to retake the quiz</string>
+</resources>

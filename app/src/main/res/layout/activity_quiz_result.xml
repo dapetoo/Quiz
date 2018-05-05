@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5sp"
+    tools:context="com.dapetoo.quiz.QuizResult">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_fullname"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/editText"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/thanks_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#006666"
+        android:padding="5sp"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:gravity="center"
+        android:padding="5sp"
+        android:text="@string/quiz_result"
+        android:textColor="#006666"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="@string/quiz_answers"
+                android:textColor="#006666"
+                android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quiz_answer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginRight="2sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1"
+            android:background="#992222"
+            android:padding="5sp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="20sp" android:layout_marginEnd="2sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="@string/your_answers"
+                android:textColor="#006666"
+                android:textSize="20sp" />
+        <TextView
+            android:id="@+id/your_answer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="2sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1"
+            android:background="#992222"
+            android:padding="5sp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="20sp" android:layout_marginStart="2sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="mailQuizResult"
+        android:text="@string/send_quiz_result"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="backToQuiz"
+        android:text="@string/take_quiz_again"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
